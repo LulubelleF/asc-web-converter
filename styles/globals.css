@@ -1,0 +1,19 @@
+/* styles/globals.css — global (NOT a CSS module) */
+
+:root{
+  --bg:#0b1020;
+  --surface:#121a2b;
+  --surface-2:#0f1626;
+  --text:#f6f8ff;
+  --muted:#9fb0d0;
+  --primary:#5aa1ff;
+  --primary-600:#3f8cff;
+  --primary-700:#2c6fe0;
+  --ok:#5bd19b;
+  --warn:#ffd169;
+  --border:rgba(255,255,255,0.08);
+  --shadow:0 8px 40px rgba(0,0,0,.25);
+}
+
+/* reset / global tweaks that shouldn’t live in a CSS module */
+* { box-sizing: border-box; }
